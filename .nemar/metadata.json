@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on002833",
-  "source": "openneuro",
-  "source_id": "ds002833",
+  "pipeline_stage": "enriched",
   "title": "DataSet2",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     " Ahmad Mheich": {},
     "Olivier Dufor": {},
@@ -12,21 +12,50 @@
     "Fabrice Wendling": {},
     "Mahmoud Hassan": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002833.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002833",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002833",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "EEG dataset containing recordings from multiple subjects. This dataset is mirrored on NEMAR from OpenNeuro (ds002833) and contains preprocessed and raw EEG data in BIDS format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "brain imaging"
+    }
+  ],
+  "source_hash": "c01e443a55de621c1f7fa8a91e078304323f7826ae493227c71cb7eb4104170d"
 }
