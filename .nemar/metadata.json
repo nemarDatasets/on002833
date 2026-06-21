@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "DataSet2",
+  "description": "EEG dataset containing recordings from multiple subjects. This dataset is mirrored on NEMAR from OpenNeuro (ds002833) and contains preprocessed and raw EEG data in BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,40 +13,6 @@
     "Fabrice Wendling": {},
     "Mahmoud Hassan": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds002833.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on002833",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002833",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".gitattributes",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "EEG dataset containing recordings from multiple subjects. This dataset is mirrored on NEMAR from OpenNeuro (ds002833) and contains preprocessed and raw EEG data in BIDS format.",
   "keywords": [
     {
       "term": "EEG"
@@ -57,5 +24,39 @@
       "term": "brain imaging"
     }
   ],
-  "source_hash": "c01e443a55de621c1f7fa8a91e078304323f7826ae493227c71cb7eb4104170d"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on002833",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002833",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002833.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "42.7 GB (241 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "96888b3a8578c22a93e2d5996a6e5123746bd5213a3aacfbfc92bb036b04b121"
 }
